@@ -1,0 +1,91 @@
+/* Michael Mouet's JS Number Counter*/
+
+body {
+  font-family: Courier New;
+  margin: 0;
+  padding: 0;
+}
+
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 15em ;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  padding: 2em 4em 4em ;
+  width: 30vw;
+}
+
+.counter-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-num-count {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 35px;
+}
+
+.counter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  width: 10em;
+}
+
+.button-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn {
+  padding: 1em 3em;
+  margin: 10px 10px 10px 10px 
+}
+
+
+#p1 {
+  font-size: 75px;
+  margin: 0;
+}
+
+
+
+@media (max-width: 767.98px) {
+
+  .section-1 {
+    padding: 40vw 0 0 ;
+  }
+
+  .counter-container {
+    padding: 10vw 30vw;
+  }
+
+  .counter-parent {
+    padding: 0;
+  }
+
+  .button-container {
+  	padding: 0;
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+}
