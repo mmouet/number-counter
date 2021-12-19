@@ -16,13 +16,13 @@
 let counter = 0
 
 const addOne = () => {
-	counter ++
+	counter++
 	document.getElementById("p1").innerHTML = counter
 
 };
 
 const subtractOne = () => {
-	counter --
+	counter--
 	document.getElementById("p1").innerHTML = counter
 };
 
